@@ -19,7 +19,7 @@ while True:
         mydb = mysql.connector.connect(
             host="localhost",
             user="Delta",
-            passwd="deltaroot",
+            passwd="PASSWORD",
             database="mysql"
         )
 
